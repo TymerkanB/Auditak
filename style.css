@@ -350,6 +350,7 @@ padding: 40px;
 @media (max-width: 480px) {
     .navbar ul {
         gap: 1px;
+        font-size: 0.9rem;
     }
 .navbar{
     flex-wrap: wrap;
