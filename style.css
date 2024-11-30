@@ -349,7 +349,7 @@ padding: 40px;
 /* Smartphones and Small Screens (Max Width: 480px) */
 @media (max-width: 480px) {
     .navbar ul {
-        gap: 10px;
+        gap: 1px;
     }
 .navbar{
     flex-wrap: wrap;
