@@ -23,6 +23,10 @@ body {
     text-align: center;
     line-height: 30px; /* Ensures text is vertically centered */
 }
+.top a{
+    color: white;
+   
+}
 header {
     position: sticky;
     top: 0;
