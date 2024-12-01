@@ -70,8 +70,6 @@ header {
 .navLogo {
     margin-left: 50px;
     display: flex;
-    text-wrap: nowrap;
-    
     align-items: center;
     gap: 10px;
     font-family: 'Metropolis-bold', sans-serif;
@@ -164,8 +162,9 @@ header {
     font-size: 12px;
  }
 .main2b img{
-    width: 500px;
-
+    width: 100%;
+    max-width: 500px;
+    
     border-radius: 10px;
  }
  .grid{
@@ -313,21 +312,22 @@ padding: 40px;
         justify-content: center;
         gap: 30px;
         align-content: center;
-    }
-    .main2{
         display: flex;
         justify-content: center;
-        
+        align-content: center;
+        text-align: center;
         padding: 20px;
     }
+   
     .main2b{
         justify-content: center;
-        margin: auto;
+        
     }
 
     .main2a {
         max-width: 100%;
         text-align: center;
+        margin: auto;
     }
 
     .grid {
